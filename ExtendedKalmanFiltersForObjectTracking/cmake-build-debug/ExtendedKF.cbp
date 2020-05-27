@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ExtendedKF"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/gadde/Desktop/sdc2/project1/pro_repo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gadde/Desktop/sdc2/project1/pro_repo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gadde/Desktop/sdc2/project1/pro_repo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gadde/Desktop/sdc2/project1/pro_repo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gadde/Desktop/sdc2/project1/pro_repo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/gadde/Desktop/sdc2/project1/pro_repo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gadde/Desktop/sdc2/project1/pro_repo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gadde/Desktop/sdc2/project1/pro_repo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gadde/Desktop/sdc2/project1/pro_repo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gadde/Desktop/sdc2/project1/pro_repo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/gadde/Desktop/sdc2/project1/pro_repo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gadde/Desktop/sdc2/project1/pro_repo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gadde/Desktop/sdc2/project1/pro_repo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gadde/Desktop/sdc2/project1/pro_repo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gadde/Desktop/sdc2/project1/pro_repo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ExtendedKF">
+				<Option output="/Users/gadde/Desktop/sdc2/project1/pro_repo/cmake-build-debug/ExtendedKF" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gadde/Desktop/sdc2/project1/pro_repo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/opt/openssl/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gadde/Desktop/sdc2/project1/pro_repo/cmake-build-debug/Makefile&quot;  VERBOSE=1 ExtendedKF"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gadde/Desktop/sdc2/project1/pro_repo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gadde/Desktop/sdc2/project1/pro_repo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gadde/Desktop/sdc2/project1/pro_repo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ExtendedKF/fast">
+				<Option output="/Users/gadde/Desktop/sdc2/project1/pro_repo/cmake-build-debug/ExtendedKF" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gadde/Desktop/sdc2/project1/pro_repo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/opt/openssl/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gadde/Desktop/sdc2/project1/pro_repo/cmake-build-debug/Makefile&quot;  VERBOSE=1 ExtendedKF/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gadde/Desktop/sdc2/project1/pro_repo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gadde/Desktop/sdc2/project1/pro_repo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gadde/Desktop/sdc2/project1/pro_repo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/gadde/Desktop/sdc2/project1/pro_repo/src/FusionEKF.cpp">
+			<Option target="ExtendedKF"/>
+		</Unit>
+		<Unit filename="/Users/gadde/Desktop/sdc2/project1/pro_repo/src/FusionEKF.h">
+			<Option target="ExtendedKF"/>
+		</Unit>
+		<Unit filename="/Users/gadde/Desktop/sdc2/project1/pro_repo/src/kalman_filter.cpp">
+			<Option target="ExtendedKF"/>
+		</Unit>
+		<Unit filename="/Users/gadde/Desktop/sdc2/project1/pro_repo/src/kalman_filter.h">
+			<Option target="ExtendedKF"/>
+		</Unit>
+		<Unit filename="/Users/gadde/Desktop/sdc2/project1/pro_repo/src/main.cpp">
+			<Option target="ExtendedKF"/>
+		</Unit>
+		<Unit filename="/Users/gadde/Desktop/sdc2/project1/pro_repo/src/tools.cpp">
+			<Option target="ExtendedKF"/>
+		</Unit>
+		<Unit filename="/Users/gadde/Desktop/sdc2/project1/pro_repo/src/tools.h">
+			<Option target="ExtendedKF"/>
+		</Unit>
+		<Unit filename="/Users/gadde/Desktop/sdc2/project1/pro_repo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
